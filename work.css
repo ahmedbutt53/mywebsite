@@ -1,0 +1,110 @@
+
+body {
+    /* background-image: url("Images/work.jpg");  */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.navbar {
+    background: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    background: orange;
+    color: black;
+    border-radius: 5px;
+}
+
+.task-container {
+    max-width: 500px;
+    margin:auto;
+    margin-top: 10px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.task-container h1{
+    text-decoration: underline;
+}
+.task-container p{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.task-container:hover {
+    transform: scale(1.02);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f9fa;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.05);
+    background: #ddd;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+input:focus {
+    border-color: #0056b3;
+    box-shadow: 0px 0px 8px rgba(0, 91, 187, 0.5);
+}
+button {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+}

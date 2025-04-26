@@ -1,0 +1,96 @@
+.navbar {
+    background: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+body {
+    /* background-image: url("Images/Fitness.jpg"); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.fitness-container {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 255, 128, 0.3);
+}
+.fitness-container:hover {
+    transform: scale(1.02);
+}
+
+.fitness-container h1 {
+    color: black;
+    text-decoration: underline;
+}
+.fitness-container p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.exercise-item {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.exercise-item:hover {
+    transform: scale(1.05);
+    color: #28a745;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+}
